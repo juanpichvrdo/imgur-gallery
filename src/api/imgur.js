@@ -6,7 +6,7 @@ const ROOT_URL = "https://api.imgur.com";
 export default {
   login() {
     const querystring = {
-      client: CLIENT_ID,
+      client_id: CLIENT_ID,
       response_type: "token"
     };
 
