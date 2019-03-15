@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img v-for="image in allImages" :src="image.link" :alt="image.description">
+    <img v-for="image in allImages" :src="image.link" :alt="image.description" :key="image.id">
   </div>
 </template>
 
